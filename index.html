@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Flyo Landing Page</title>
-  <link rel="stylesheet" href="./reset.css">
-  <link rel="stylesheet" href="./main.css">
-</head>
-<body>
-  <div class="container">
-    <nav class="navbar">
-      <div class="navbar__container">
-        <a class="navbar-brand" href="/">
-          <img class="navbar-logo" src='./images/logo.svg' alt='logo'>
-        </a>
-        <!-- <button
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Flyo Landing Page</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="navbar__container">
+          <a class="navbar-brand" href="/">
+            <img class="navbar-logo" src="./images/logo.svg" alt="logo" />
+          </a>
+          <!-- <button
           className="navbar-toggler navbar-toggler-right border-0"
           type="button"
           data-toggle="collapse"
@@ -25,97 +32,263 @@
         >
           <span className="navbar-toggler-icon"></span>
         </button> -->
-        <div class="navbar__items">
-          <ul class="navbar_nav">
-            <li class="nav-item">
-              <a class="nav__link" href="/">
-                Features
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav__link" href="/">
-                Team
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav__link" href="/dashboard">
-                Sign in
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <section class="hero-section">
-      <div class="hero-container">
-        <div class="hero__image-container">
-          <img class="hero__image" src="./images/illustration-intro.png">
-        </div>
-        <div class="hero__text">
-          <h2 class="hero__text__heading">All your files in one secure location, accessible anywhere.</h2>
-          <p class="hero__text__sub-heading">Flyo stores all your important files in one location. Access them wherever you need, share and collaborate with friends and family, and co-workers.  </p>
-          <button class="hero__btn">Get Started</button>
-        </div>
-      </div>
-    </section>
-    <section class="features-section">
-      <div class="features__cards-container">
-        <div class="features__card card">
-          <div class="card__header">
-            <img src="./images/icon-access-anywhere.svg" alt="phone" srcset="">
-          </div>
-          <div class="card__body">
-            <h2>Access your files, anywhere</h2>
-            <p>The ability to use your smartphone, tablet, computer to access your account means your files follow you anywhere. </p>
-          </div>
-
-        </div>
-        <div class="features__card">
-          <div class="card__header">
-            <img src="./images/icon-security.svg" alt="phone" srcset="">
-          </div>
-          <div class="card__body">
-            <h2>Security you can trust.</h2>
-            <p>The ability to use your smartphone, tablet, computer to access your account means your files follow you anywhere. </p>
+          <div class="navbar__items">
+            <ul class="navbar_nav">
+              <li class="nav-item">
+                <a class="nav__link" href="/"> Features </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav__link" href="/"> Team </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav__link" href="/dashboard"> Sign in </a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="features__card">
-          <div class="card__header">
-            
-            <img src="./images/icon-collaboration.svg" alt="phone" srcset="">
+      </nav>
+      <section class="hero-section">
+        <div class="hero-container">
+          <div class="hero__image-container">
+            <img class="hero__image" src="./images/illustration-intro.png" />
           </div>
-          <div class="card__body">
-            <h2>Real-time collaboration</h2>
-            <p>The ability to use your smartphone, tablet, computer to access your account means your files follow you anywhere. </p>
+          <div class="hero__text">
+            <div class="hero__text-inner-container">
+              <h2 class="hero__text__heading">
+                All your files in one secure location, accessible anywhere.
+              </h2>
+              <p class="hero__text__sub-heading">
+                Flyo stores all your important files in one location. Access them
+                wherever you need, share and collaborate with friends and family,
+                and co-workers.
+              </p>
+              <button class="hero__btn">Get Started</button>
+            </div>
           </div>
         </div>
-        <div class="features__card">
-          <div class="card__header">
-            <img src="./images/icon-any-file.svg" alt="phone" srcset="">
+      </section>
+      <section class="features-section">
+        <div class="features-cards-container">
+          <div class="features__card card">
+            <div class="card__header">
+              <img
+                src="./images/icon-access-anywhere.svg"
+                alt="phone"
+                srcset=""
+              />
+            </div>
+            <div class="card__body">
+              <h2>Access your files, anywhere</h2>
+              <p>
+                The ability to use your smartphone, tablet, computer to access
+                your account means your files follow you anywhere.
+              </p>
+            </div>
           </div>
-          <div class="card__body">
-            <h2>Store any type of file</h2>
-            <p>The ability to use your smartphone, tablet, computer to access your account means your files follow you anywhere. </p>
+          <div class="features__card">
+            <div class="card__header">
+              <img src="./images/icon-security.svg" alt="phone" srcset="" />
+            </div>
+            <div class="card__body">
+              <h2>Security you can trust.</h2>
+              <p>
+                The ability to use your smartphone, tablet, computer to access
+                your account means your files follow you anywhere.
+              </p>
+            </div>
+          </div>
+          <div class="features__card">
+            <div class="card__header">
+              <img
+                src="./images/icon-collaboration.svg"
+                alt="phone"
+                srcset=""
+              />
+            </div>
+            <div class="card__body">
+              <h2>Real-time collaboration</h2>
+              <p>
+                The ability to use your smartphone, tablet, computer to access
+                your account means your files follow you anywhere.
+              </p>
+            </div>
+          </div>
+          <div class="features__card">
+            <div class="card__header">
+              <img src="./images/icon-any-file.svg" alt="phone" srcset="" />
+            </div>
+            <div class="card__body">
+              <h2>Store any type of file</h2>
+              <p>
+                The ability to use your smartphone, tablet, computer to access
+                your account means your files follow you anywhere.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="productive-content-section">
-      <div class="productive-content__image-container">
-        <img class="productive-content__image" src="./images/illustration-stay-productive.png" alt="productive-image" srcset="">
-      </div>
-      <div class="productive-content-text-container">
-        <h3 class="productive-content__heading">Stay productive wherever you are.</h3>
-        <p class="productive-content__sub-heading">Never let location be an issue when accessing your files. Flyo has got you covered for all of your file storage needs.
-          <br>
-          Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
-        </p>
-
-        <a class="productive-content__link" href="/">See how Fylo works <span><img src="./images/icon-arrow.svg" alt="arrow icon" srcset=""></span> </a>
-
-      </div>
-    </section>
-  </div>
+      </section>
+      <section class="productive-content-section">
+        <div class="productive-content__image-container">
+          <img
+            class="productive-content__image"
+            src="./images/illustration-stay-productive.png"
+            alt="productive-image"
+            srcset=""
+          />
+        </div>
+        <div class="productive-content-text-container">
+          <h3 class="productive-content__heading">
+            Stay productive wherever you are.
+          </h3>
+          <p class="productive-content__sub-heading">
+            Never let location be an issue when accessing your files. Flyo has
+            got you covered for all of your file storage needs.
+          </p>
+          <p class="productive-content__sub-heading">
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required.
+          </p>
+          <a class="productive-content__link" href="/"
+            >See how Fylo works
+            <span class="productive-content__link-icon"
+              ><img src="./images/icon-arrow.svg" alt="arrow icon" srcset=""
+            /></span>
+          </a>
+        </div>
+      </section>
+      <section class="testimonial-section">
+        <img
+          class="testimonial-quote"
+          src="./images/bg-quotes.png"
+          alt="quotes-image"
+        />
+        <div class="testimonial-cards-container">
+          <div class="testimonial__card">
+            <p class="testimonial__text">
+              Flyo has improved my team's productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="testimonial-profile">
+              <img src="./images/profile-1.jpg" alt="" srcset="" />
+              <div class="testimonial__profile-details">
+                <h4>Yakubu Aminat</h4>
+                <p>CEO, Anipa</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial__card">
+            <p class="testimonial__text">
+              Flyo has improved my team's productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="testimonial-profile">
+              <img src="./images/profile-2.jpg" alt="" srcset="" />
+              <div class="testimonial__profile-details">
+                <h4>Yakubu Aminat</h4>
+                <p>CEO, Anipa</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial__card">
+            <p class="testimonial__text">
+              Flyo has improved my team's productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="testimonial-profile">
+              <img src="./images/profile-3.jpg" alt="" srcset="" />
+              <div class="testimonial__profile-details">
+                <h4>Yakubu Aminat</h4>
+                <p>CEO, Anipa</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="call-to-action-section">
+          <h2>Get early access today.</h2>
+          <p>
+            it takes onliy a minute to sign up and out free starter tier is
+            extremely generous. If you have any questions, our support team
+            would be happy to help you.
+          </p>
+          <div class="call-to-action-input-container">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="email@example.com"
+              required
+            />
+            <input type="submit" value="Get started for free" />
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-logo-container">
+          <img class="footer__logo" src="./images/logo.svg" alt="" srcset="" />
+        </div>
+        <div class="footer-inner-container">
+          <div class="footer-contact">
+            <div class="footer_address footer-contact-container">
+              <img
+                class="footer-contact__icon"
+                src="./images/icon-location.svg"
+                alt="location-icon"
+                srcset=""
+              />
+              <p class="footer-contact__text">
+                dhsv dhsvds bsdvs dbvsd ds hds dsbvds sdhgvds dhvshjs dhvss
+              </p>
+            </div>
+            <div>
+              <div class="footer_telephone footer-contact-container">
+                <img
+                  class="footer-contact__icon"
+                  src="./images/icon-phone.svg"
+                  alt="location-icon"
+                  srcset=""
+                />
+                <p class="footer-contact__text">
+                  dhsv dhsvds bsdvs dbvsd ds hds dsbvds sdhgvds dhvshjs dhvss
+                </p>
+              </div>
+              <div class="footer_address footer-contact-container">
+                <img
+                  class="footer-contact__icon"
+                  src="./images/icon-email.svg"
+                  alt="location-icon"
+                  srcset=""
+                />
+                <p class="footer-contact__text">
+                  dhsv dhsvds bsdvs dbvsd ds hds dsbvds sdhgvds dhvshjs dhvss
+                </p>
+              </div>
+            </div>
+          </div>
   
-</body>
+          <div class="footer__links footer-quick-links">
+            <a class="footer__link" href="/">About Us</a>
+            <a class="footer__link" href="/">Jobs</a>
+            <a class="footer__link" href="/">Press</a>
+            <a class="footer__link" href="/">Blog</a>
+          </div>
+          <div class="footer__links footer-quick-links">
+            <a class="footer__link" href="/">Contact Us</a>
+            <a class="footer__link" href="/">Terms</a>
+            <a class="footer__link" href="/">Privacy</a>
+          </div>
+          
+        </div>
+        <div class="footer__social-links-container">
+          <div class="footer__social-links">
+            <a class="footer__social-link" href="/"> <img src="./images/facebook.svg" alt="facebook" srcset=""></a>
+            <a class="footer__social-link" href="/"><img src="./images/twitter.svg" alt="twitter" srcset=""></a>
+            <a class="footer__social-link" href="/"><img src="./images/instagram.svg" alt="instgram" srcset=""></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
