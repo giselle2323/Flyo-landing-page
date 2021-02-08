@@ -242,7 +242,7 @@ body {
 }
 
 .call-to-action-email {
-	width: 100%;
+  width: 100%;
 }
 
 .call-to-action-submit {
@@ -269,7 +269,8 @@ body {
 
 .footer__logo {
   max-width: 100%;
-  width: 100%;
+  margin: 10px;
+  width: 91%;
 }
 
 .footer-contact {
@@ -292,6 +293,7 @@ body {
 
 .footer-contact__text {
   color: #fff;
+  font-size: 20px;
 }
 
 .footer__links {
@@ -304,6 +306,7 @@ body {
   text-decoration: none;
   color: #fff;
   padding: 10px 0;
+  font-size: 18px;
 }
 
 .footer__social-links {
@@ -313,12 +316,73 @@ body {
 }
 
 .footer__social-link img {
-  width: 40px;
+  width: 70px;
   max-width: 40px;
   padding: 10px;
 }
 
-/* @media only screen and (min-width: 768px) {...} 
+@media only screen and (min-width: 768px) {
+  .features-cards-container {
+    flex-direction: row;
+    flex-flow: wrap;
+  }
+
+  .features__card {
+    width: 47%;
+  }
+
+  .productive-content-section {
+    flex-direction: row;
+    padding: 20px;
+  }
+
+  .productive-content__image-container {
+    width: 50%;
+  }
+
+  .productive-content-text-container {
+    width: 50%;
+  }
+
+  .testimonial-cards-container {
+    flex-direction: row;
+    padding: 20px;
+  }
+
+  .call-to-action-section {
+    left: 70px;
+    right: 70px;
+  }
+
+  .call-to-action-input-container input {
+    margin: 10px;
+  }
+
+  .footer {
+    padding-top: 10rem;
+  }
+
+  .footer-contact {
+    flex-direction: row;
+  }
+
+  .footer-contact-container {
+    height: fit-content;
+  }
+
+  .footer-inner-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer__links {
+    color: #fff;
+  }
+
+  .footer__social-links img {
+    max-width: 100%;
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -423,6 +487,7 @@ body {
   .call-to-action-section {
     width: 700px;
     right: 25%;
+    left: 25%;
     text-align: center;
     padding: 50px;
   }
@@ -454,10 +519,6 @@ body {
   }
   /* FOOTER */
 
-  /* .footer {
-    flex-direction: row;
-  } */
-
   .footer-inner-container {
     display: flex;
   }
@@ -482,10 +543,3 @@ body {
     padding: 0;
   }
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {
-
-	
-
-} */
