@@ -34,6 +34,7 @@ body {
 
 .navbar-brand {
   width: 83px;
+  margin-right: 20px;
 }
 
 .navbar-logo {
