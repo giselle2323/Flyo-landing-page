@@ -33,7 +33,7 @@ body {
 }
 
 .navbar-brand {
-  width: 70px;
+  width: 83px;
 }
 
 .navbar-logo {
@@ -80,9 +80,9 @@ body {
 .hero__btn {
   background-color: #65e2d9;
   color: #fff;
-  border-radius: 20px;
+  border-radius: 12px;
   margin: 20px;
-  padding: 10px 20px;
+  padding: 20px 30px;
   outline: none;
   border: none;
 }
@@ -282,6 +282,7 @@ body {
   padding: 20px 0;
   margin: 10px 0;
   display: flex;
+  height: 100px;
 }
 
 .footer-contact__icon {
@@ -319,6 +320,10 @@ body {
   width: 70px;
   max-width: 40px;
   padding: 10px;
+}
+
+.footer__social-links-container {
+  padding: 20px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -367,7 +372,7 @@ body {
   }
 
   .footer-contact-container {
-    height: fit-content;
+    height: 100px;
   }
 
   .footer-inner-container {
@@ -381,6 +386,14 @@ body {
 
   .footer__social-links img {
     max-width: 100%;
+  }
+
+  .footer_telephone {
+    height: 88px;
+  }
+
+  .footer_address {
+    height: 88px;
   }
 }
 
@@ -485,7 +498,6 @@ body {
   }
 
   .call-to-action-section {
-    width: 700px;
     right: 25%;
     left: 25%;
     text-align: center;
